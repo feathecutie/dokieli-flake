@@ -2,7 +2,7 @@
   description = "💡 dokieli is a clientside editor for decentralised article publishing, annotations and social interactions ";
 
   inputs = {
-    nixpkgs.url = "github:feathecutie/nixpkgs/fix-fetch-yarn-deps";
+    # nixpkgs.url = "github:feathecutie/nixpkgs/fix-fetch-yarn-deps";
     flake-utils.url = "github:numtide/flake-utils";
   };
 

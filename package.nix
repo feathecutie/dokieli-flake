@@ -21,7 +21,7 @@ stdenvNoCC.mkDerivation (finalAttrs: {
 
   yarnOfflineCache = fetchYarnDeps {
     yarnLock = "${finalAttrs.src}/yarn.lock";
-    hash = "sha256-IeW86K3HrtajxJxqo37gxCjb2BrV8rlZTrP35z1ihv4=";
+    hash = lib.fakeHash;
   };
 
   nativeBuildInputs = [
